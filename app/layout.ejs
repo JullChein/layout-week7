@@ -9,10 +9,11 @@
     <%- title %>
   </title>
   <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" data-aos="fade-left">
     <div class="container">
       <h1>Joanne<br>Chen</h1>
       <img src="assets/images/photo.png" alt="user-pic">
@@ -21,7 +22,7 @@
 
   <%- contents %>
 
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-left">
       <div class="container">
         <div class="footer-title">
           <h3>聯絡方式<span>CONTACT METHOD</span></h3>
@@ -41,6 +42,11 @@
     </footer>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

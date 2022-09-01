@@ -1,0 +1,130 @@
+.main {
+    & h2 {
+        font-size: 32px;
+        color: $black;
+        font-weight: 500;
+        padding-bottom: 8px;
+        border-bottom: 1px solid $black;
+
+        & span {
+            font-size: 24px;
+            color: $secondary;
+            padding-left: 16px;
+        }
+    }
+
+    & h3 {
+        font-size: 32px;
+        color: $white;
+        font-weight: 500;
+        text-align: center;
+
+        & span {
+            font-size: 24px;
+            color: $white;
+            padding-left: 16px;
+        }
+    }
+}
+
+.profile {
+    padding-bottom: 40px;
+
+    & .profile-list {
+        padding-top: 16px;
+
+        & li {
+            padding-bottom: 24px;
+
+            & p {
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+.education {
+    padding-bottom: 48px;
+
+    & .education-list {
+        padding-top: 16px;
+
+        & li {
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 1.5;
+            padding-bottom: 16px;
+        }
+    }
+}
+
+.skills {
+    background: $primary;
+    padding-top: 24px;
+
+    & h3 {
+        padding-bottom: 8px;
+    }
+
+    & .skills-box {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-top: 1px solid $white;
+    }
+
+    & .skills-box-container {
+        max-width: 992px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+
+        & .skills-list {
+            padding-left: 24px;
+            border-left: 1px solid $info;
+
+            & li {
+                color: $white;
+                font-size: 24px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.work-experience {
+    padding-top: 64px;
+    padding-bottom: 80px;
+
+    & .work-experience-list {
+        margin-top: 16px;
+        width: 642px;
+        padding-left: 24px;
+        border-left: 1px solid $info;
+        margin-left: 24px;
+
+        & h4 {
+            font-size: 24px;
+            font-weight: 500;
+            color: $black;
+            line-height: 1.5;
+        }
+
+        & p {
+            font-size: 20px;
+            font-weight: 300;
+            color: $black;
+            line-height: 1.5;
+        }
+    }
+}
+
+
+.pb-8 {
+    padding-bottom: 8px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
